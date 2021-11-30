@@ -16,3 +16,8 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
+$router->get('/chart', 'ChartController@render');
+$router->get('/chart/perDept', 'ChartController@getByJurusan');
+$router->get('/chart/perYear', 'ChartController@getByYear');
+$router->get('/chart/wordCloud', 'ChartController@wordCloud');
