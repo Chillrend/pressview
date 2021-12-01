@@ -21,3 +21,4 @@ $router->get('/chart', 'ChartController@render');
 $router->get('/chart/perDept', 'ChartController@getByJurusan');
 $router->get('/chart/perYear', 'ChartController@getByYear');
 $router->get('/chart/wordCloud', 'ChartController@wordCloud');
+$router->get('/table', 'TableController@render');
