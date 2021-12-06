@@ -64,7 +64,7 @@
                         datasets: [{
                             label: 'Jumlah buku',
                             data: data.data,
-                            backgroundColor: 'brown',
+                            backgroundColor: colors,
                             hoverOffset: 4
                         }]
                     },
