@@ -12,11 +12,6 @@
 | and give it the Closure to call when that URI is requested.
 |
 */
-
-$router->get('/', function () use ($router) {
-    return redirect('/chart');
-});
-
 $router->get('/chart', 'ChartController@render');
 $router->get('/chart/perDept', 'ChartController@getByJurusan');
 $router->get('/chart/perYear', 'ChartController@getByYear');
