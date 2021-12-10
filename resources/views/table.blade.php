@@ -1,7 +1,7 @@
 @extends('template.index')
 @section('content')
     <section>
-        <div class="container px-4 px-lg-5">
+        <div class="">
             <div class="row gx-4 gx-lg-5">
                 <div class="col-lg-12">
                     <h1 class="mt-5">List Buku</h1>
