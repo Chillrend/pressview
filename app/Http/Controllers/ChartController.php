@@ -34,7 +34,7 @@ class ChartController extends Controller
         $data = [];
         for ($i = 0; $i < count($responseArray); $i++){
             $categories = $responseArray[$i];
-            if (strpos($categories->name, 'Buku') === false && strpos($categories->name, 'PNJ') === false){
+            if (strpos($categories->name, 'Buku') === false && strpos($categories->name, 'PNJ') === false && strpos($categories->name, 'MITRA') === false){
                 array_push($labels, $categories->name);
                 array_push($data, $categories->count);
             }
